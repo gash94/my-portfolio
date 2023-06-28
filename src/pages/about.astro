@@ -1,120 +1,155 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
+import BaseLayout from "../layouts/BaseLayout.astro";
 
-import ContactCTA from '../components/ContactCTA.astro';
-import Hero from '../components/Hero.astro';
+import ContactCTA from "../components/ContactCTA.astro";
+import Hero from "../components/Hero.astro";
 ---
 
-<BaseLayout title="About | Gash" description="About Gash">
-	<div class="stack gap-20">
-		<main class="wrapper about">
-			<Hero
-				title="About"
-				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
-			>
-				<img
-					width="1553"
-					height="873"
-					src="/assets/at-work.jpg"
-					alt="Jeanine White at work with a colleague"
-				/>
-			</Hero>
+<BaseLayout title="About me | Gash" description="About Gash">
+    <div class="stack gap-20">
+        <main class="wrapper about">
+            <Hero
+                title="About me"
+                tagline="Thanks for stopping by. Read below to learn more about myself and my background.">
+                <img
+                    width="1553"
+                    height="873"
+                    src="/assets/at-work.jpg"
+                    alt="Obraz autorstwa macrovector na Freepik"
+                />
+            </Hero>
 
-			<section>
-				<h2 class="section-title">Background</h2>
-				<div class="content">
-					<p>
-						Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy.
-						Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum
-						id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla
-						pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
-					</p>
-					<p>
-						Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis
-						natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl
-						condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel
-						quam elementum pulvinar etiam non.
-					</p>
-					<p>
-						Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet
-						eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra.
-						Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl
-						pretium fusce.
-					</p>
-				</div>
-			</section>
-			<section>
-				<h2 class="section-title">Education</h2>
-				<div class="content">
-					<p>Corporis voluptates tenetur laudantium.</p>
-				</div>
-			</section>
-			<section>
-				<h2 class="section-title">Skills</h2>
-				<div class="content">
-					<p>officia unde omnis</p>
-				</div>
-			</section>
-		</main>
+            <section>
+                <h2 class="section-title">About me</h2>
+                <div class="content">
+                    <p>
+                        Hello World! Let me introduce myself as Paweł Gasz, a
+                        young and ambitious programmer who aspires to excel in
+                        software development, especially in JavaScript. I
+                        possess strong programming skills and continuously
+                        strive for growth in this dynamic field.
+                    </p>
+                    <p>
+                        My passion for IT started at an early age, and now as a
+                        young aspiring programmer, I channel my energy and
+                        enthusiasm towards creating innovative solutions using
+                        JavaScript. This language not only serves as a tool for
+                        my work but also inspires me to constantly improve in
+                        building interactive and responsive websites and web
+                        applications.
+                    </p>
+                </div>
+            </section>
+            <section>
+                <h2 class="section-title">Experience</h2>
+                <div class="content">
+                    <p>
+                        I have gained extensive experience working with
+                        JavaScript, both in individual and team projects. My
+                        skills encompass both front-end and back-end
+                        development, including the utilization of frameworks
+                        such as React and Node.js. My determination and
+                        problem-solving abilities enable me to create software
+                        that meets clients requirements and delivers value to
+                        them.
+                    </p>
+                </div>
+            </section>
+            <section>
+                <h2 class="section-title">Education</h2>
+                <div class="content">
+                    <p>
+                        I am also open to learning and constantly seeking new
+                        challenges. I actively participate in the programming
+                        community by attending various meetings, conferences,
+                        and workshops to stay up to date with the latest trends
+                        and solutions in the field of programming.
+                    </p>
+                </div>
+            </section>
+            <section>
+                <h2 class="section-title">Cooperation</h2>
+                <div class="content">
+                    <p>
+                        Collaborating with me guarantees professionalism,
+                        dedication, and creativity. My drive and constant
+                        appetite for growth make me an ideal candidate for
+                        projects that require fresh perspectives and innovative
+                        solutions.
+                    </p>
+                    <p>
+                        If you are in search of a young, talented JavaScript
+                        programmer who will bring value to your team, then I am
+                        the right choice. My passion for coding and technical
+                        skills will ensure that the project we collaborate on
+                        achieves success.
+                    </p>
 
-		<ContactCTA />
-	</div>
+                    <p>
+                        *Most of the text on this website was generated with
+                        Open AI
+                    </p>
+                </div>
+            </section>
+        </main>
+        <ContactCTA />
+    </div>
 </BaseLayout>
 
 <style>
-	.about {
-		display: flex;
-		flex-direction: column;
-		gap: 3.5rem;
-	}
+    .about {
+        display: flex;
+        flex-direction: column;
+        gap: 3.5rem;
+    }
 
-	img {
-		margin-top: 1.5rem;
-		border-radius: 1.5rem;
-		box-shadow: var(--shadow-md);
-	}
+    img {
+        margin-top: 1.5rem;
+        border-radius: 1.5rem;
+        box-shadow: var(--shadow-md);
+    }
 
-	section {
-		display: flex;
-		flex-direction: column;
-		gap: 0.5rem;
-		color: var(--gray-200);
-	}
+    section {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        color: var(--gray-200);
+    }
 
-	.section-title {
-		grid-column-start: 1;
-		font-size: var(--text-xl);
-		color: var(--gray-0);
-	}
+    .section-title {
+        grid-column-start: 1;
+        font-size: var(--text-xl);
+        color: var(--gray-0);
+    }
 
-	.content {
-		grid-column: 2 / 4;
-	}
+    .content {
+        grid-column: 2 / 4;
+    }
 
-	.content :global(a) {
-		text-decoration: 1px solid underline transparent;
-		text-underline-offset: 0.25em;
-		transition: text-decoration-color var(--theme-transition);
-	}
+    .content :global(a) {
+        text-decoration: 1px solid underline transparent;
+        text-underline-offset: 0.25em;
+        transition: text-decoration-color var(--theme-transition);
+    }
 
-	.content :global(a:hover),
-	.content :global(a:focus) {
-		text-decoration-color: currentColor;
-	}
+    .content :global(a:hover),
+    .content :global(a:focus) {
+        text-decoration-color: currentColor;
+    }
 
-	@media (min-width: 50em) {
-		.about {
-			display: grid;
-			grid-template-columns: 1fr 60% 1fr;
-		}
+    @media (min-width: 50em) {
+        .about {
+            display: grid;
+            grid-template-columns: 1fr 60% 1fr;
+        }
 
-		.about > :global(:first-child) {
-			grid-column-start: 2;
-		}
+        .about > :global(:first-child) {
+            grid-column-start: 2;
+        }
 
-		section {
-			display: contents;
-			font-size: var(--text-lg);
-		}
-	}
+        section {
+            display: contents;
+            font-size: var(--text-lg);
+        }
+    }
 </style>
