@@ -1,24 +1,26 @@
 ---
-title: Search img
-publishDate: 2019-10-02 00:00:00
-demo: https://gash94.github.io/eventbooster-goit-group-5
-repo: https://github.com/gash94/eventbooster-goit-group-5
+title: Image Finder
+publishDate: 2022-10-02 00:00:00
+demo: https://gash94.github.io/imagefinder
+repo: https://github.com/gash94/imagefinder
 img: /assets/searchimg.jpg
-img_alt: Soft pink and baby blue water ripples together in a subtle texture.
+img_alt: page in blue colors showing the image search engine
 description: |
-    We developed brand positioning and design assets for the launch
-    of a new colored water product.
+    "Image Finder" is an application that utilizes HTML5, CSS3, SCSS, JavaScript, notiflix, axios, and the Pixabay API. The purpose of this application is to provide users with a convenient and intuitive way to search for images.
 tags:
-    - Design
-    - Branding
+    - HTML5
+    - CSS3
+    - SCSS
+    - JavaScript
+    - notiflix
+    - axios
+    - Pixabay API
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur posuere commodo venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam non ligula vel metus efficitur hendrerit. In hac habitasse platea dictumst. Praesent et mauris ut mi dapibus semper. Curabitur tortor justo, efficitur sit amet pretium cursus, porta eget odio. Cras ac venenatis dolor. Donec laoreet posuere malesuada. Curabitur nec mi tempor, placerat leo sit amet, tincidunt est. Quisque pellentesque venenatis magna, eget tristique nibh pulvinar in. Vestibulum vitae volutpat arcu. Aenean ut malesuada odio, sit amet pellentesque odio. Suspendisse nunc elit, blandit nec hendrerit non, aliquet at magna. Donec id leo ut nulla sagittis sodales.
+The application is built using HTML5 to structure the content and create the necessary elements for the user interface. CSS3 and SCSS are used to style and design the visual appearance of the application, including layout, colors, typography, and other design aspects. SCSS, as a CSS preprocessor, enables the use of variables, mixins, and other advanced features to enhance the efficiency and organization of the stylesheets.
 
-Integer vitae nibh elit. Suspendisse eget urna eu neque bibendum pharetra. Sed interdum lectus sem, in pulvinar magna dignissim vel. Quisque maximus at urna nec laoreet. Suspendisse potenti. Vestibulum rhoncus sem ut mi pellentesque, in vestibulum erat blandit. Aliquam sodales dui ac maximus consectetur. Duis quis est vehicula, imperdiet nisl nec, fermentum erat. Duis tortor diam, pharetra eu euismod in, vehicula non eros. Curabitur facilisis dui at erat ultrices gravida. In at nunc ultricies, pulvinar mi vel, sagittis mauris. Praesent pharetra posuere purus ac imperdiet. Nulla facilisi.
+JavaScript plays a vital role in the functionality of the application. It handles user interactions and implements the image search functionality. With JavaScript, users can enter search queries, trigger API requests, and dynamically display the search results on the page. The application utilizes the axios library to make HTTP requests to the Pixabay API, which serves as the source of the image data.
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
+The Pixabay API allows users to search for images based on specific keywords and retrieve relevant results. It provides a vast collection of high-quality images that can be accessed and displayed within the application. By leveraging the Pixabay API, "Image Finder" ensures that users have access to a diverse range of images to choose from.
 
-Mauris sed eros in ex maximus volutpat. Suspendisse potenti. Donec lacinia justo consectetur sagittis tempor. Proin ullamcorper nisi vitae auctor rhoncus. Sed tristique aliquam augue. Pellentesque vitae fringilla ligula. Nulla arcu elit, efficitur eu nunc malesuada, eleifend tincidunt orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer mattis orci in bibendum ultricies. Quisque a dui erat. Phasellus et vulputate ipsum. Proin metus ex, lobortis nec ornare eget, bibendum ut sapien. Aliquam in dolor lobortis, aliquam tellus a, congue augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
+To enhance the user experience, the application incorporates notiflix, a JavaScript library that enables the display of notifications and alerts. It provides informative messages, such as search success notifications or error alerts, in a visually appealing manner, keeping users informed throughout their interaction with the application.
