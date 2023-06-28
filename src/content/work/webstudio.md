@@ -1,24 +1,24 @@
 ---
 title: WebStudio
 publishDate: 2023-06-19 18:00:00
-demo: https://gash94.github.io/eventbooster-goit-group-5
-repo: https://github.com/gash94/eventbooster-goit-group-5
+demo: https://gash94.github.io/WebStudio
+repo: https://github.com/gash94/WebStudio
 img: /assets/webstudio.png
 img_alt: Web Studio preview in bright colors
 description: |
-    The first website project coded on the basis of the Figma mock-up in html5/css3 with the use of ready-made JavaScript scripts. It shows an example of a fake company website.
+    "WebStudio" is the first project of a website developed based on a mockup designed in Figma. It was coded using HTML5, CSS3, SCSS, and responsive layout techniques. The project also incorporates ready-made JavaScript scripts, such as a hamburger menu for mobile view. It serves as an example of a fictitious company's website.
 tags:
     - HTML5
     - CSS3
+    - SCSS
+    - Responsive Layout
     - JavaScript
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur posuere commodo venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam non ligula vel metus efficitur hendrerit. In hac habitasse platea dictumst. Praesent et mauris ut mi dapibus semper. Curabitur tortor justo, efficitur sit amet pretium cursus, porta eget odio. Cras ac venenatis dolor. Donec laoreet posuere malesuada. Curabitur nec mi tempor, placerat leo sit amet, tincidunt est. Quisque pellentesque venenatis magna, eget tristique nibh pulvinar in. Vestibulum vitae volutpat arcu. Aenean ut malesuada odio, sit amet pellentesque odio. Suspendisse nunc elit, blandit nec hendrerit non, aliquet at magna. Donec id leo ut nulla sagittis sodales.
+The website utilizes HTML5 for structuring the content and creating a semantically meaningful layout. CSS3 and SCSS are employed to style and design the elements of the website, including colors, fonts, margins, and backgrounds, to achieve an appealing visual appearance. SCSS, as a preprocessor for CSS, allows for the use of variables, mixins, and nesting, making the stylesheets more efficient and maintainable.
 
-Integer vitae nibh elit. Suspendisse eget urna eu neque bibendum pharetra. Sed interdum lectus sem, in pulvinar magna dignissim vel. Quisque maximus at urna nec laoreet. Suspendisse potenti. Vestibulum rhoncus sem ut mi pellentesque, in vestibulum erat blandit. Aliquam sodales dui ac maximus consectetur. Duis quis est vehicula, imperdiet nisl nec, fermentum erat. Duis tortor diam, pharetra eu euismod in, vehicula non eros. Curabitur facilisis dui at erat ultrices gravida. In at nunc ultricies, pulvinar mi vel, sagittis mauris. Praesent pharetra posuere purus ac imperdiet. Nulla facilisi.
+Responsive layout techniques have been implemented to ensure that the website adapts and displays correctly across different screen sizes and devices. This enables a seamless user experience regardless of the device being used to access the website.
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
+The project incorporates ready-made JavaScript scripts, such as a hamburger menu, to enhance the interactivity and functionality of the website. These scripts enable the navigation menu to transform into a compact mobile-friendly version, providing an intuitive and user-friendly experience for mobile users.
 
-Mauris sed eros in ex maximus volutpat. Suspendisse potenti. Donec lacinia justo consectetur sagittis tempor. Proin ullamcorper nisi vitae auctor rhoncus. Sed tristique aliquam augue. Pellentesque vitae fringilla ligula. Nulla arcu elit, efficitur eu nunc malesuada, eleifend tincidunt orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer mattis orci in bibendum ultricies. Quisque a dui erat. Phasellus et vulputate ipsum. Proin metus ex, lobortis nec ornare eget, bibendum ut sapien. Aliquam in dolor lobortis, aliquam tellus a, congue augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
+It is important to note that this website is a fictitious example and does not represent an actual company. The project was created for educational or training purposes, showcasing coding and design skills in the realm of web development.
