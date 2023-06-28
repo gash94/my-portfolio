@@ -29,10 +29,8 @@ const projects = (await getCollection("work"))
     <div class="stack gap-20 lg:gap-48">
         <div class="wrapper stack gap-8 lg:gap-20">
             <header class="hero">
-                <Hero
-                    title="Hello, my name is Paweł Gasz"
-                    tagline="I am a Full Stack Developer who is currently based in Ruda Śląska, Poland."
-                    align="start">
+                <Hero title="Hello, my name is Paweł Gasz" align="start">
+                    <div id="typewriter"></div>
                     <div class="roles">
                         <Pill>
                             <Icon icon="code" size="1.33em" /> JavaScript
@@ -106,13 +104,14 @@ const projects = (await getCollection("work"))
                                 "React",
                                 "Redux",
                                 "Node.js",
+                                "Express.js",
                                 "MongoDB",
                                 "REST API",
-                                "GitHub and GIT",
+                                "GitHub",
+                                "GIT",
                                 "Figma",
                                 "VSCode",
                                 "ChakraUI",
-                                "Bootstrap",
                             ].map((brand) => (
                                 <li class="mention-card">
                                     <p>{brand}</p>
@@ -128,6 +127,24 @@ const projects = (await getCollection("work"))
     </div>
 </BaseLayout>
 
+<script>
+    import Typewriter from "typewriter-effect/dist/core";
+
+    document.getElementById("#typewriter");
+
+    new Typewriter("#typewriter", {
+        strings: [
+            `I am a young, committed, aspiring programmer ready to work hard and learn new technology.`,
+            `I decided to invest in my own development and enter the IT industry.`,
+            `In addition, I have soft skills, such as multitasking, organizational skills, time management skills, the ability to work effectively individually and in a team, and resourcefulness.`,
+        ],
+        autoStart: true,
+        loop: true,
+        delay: 45,
+        deleteSpeed: 10,
+        pauseFor: 1500,
+    });
+</script>
 <style>
     .hero {
         display: flex;
@@ -287,6 +304,11 @@ const projects = (await getCollection("work"))
         color: var(--gray-300);
         background: var(--gradient-subtle);
         box-shadow: var(--shadow-sm);
+        transition: box-shadow, transform var(--theme-transition);
+    }
+    .mention-card:hover {
+        box-shadow: var(--shadow-md);
+        transform: scale(1.08);
     }
 
     @media (min-width: 50em) {
