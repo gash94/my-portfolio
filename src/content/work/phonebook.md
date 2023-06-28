@@ -1,24 +1,37 @@
 ---
 title: Phonebook
-publishDate: 2019-10-02 00:00:00
-demo: https://gash94.github.io/eventbooster-goit-group-5
-repo: https://github.com/gash94/eventbooster-goit-group-5
+publishDate: 2023-26-06 00:00:00
+demo: https://gash94.github.io/goit-react-hw-08-phonebook
+repo: https://github.com/gash94/goit-react-hw-08-phonebook
 img: /assets/phonebook.png
-img_alt: Soft pink and baby blue water ripples together in a subtle texture.
+img_alt: Page in dark colors with contact cards.
 description: |
-    We developed brand positioning and design assets for the launch
-    of a new colored water product.
+    The "Phonebook" application is an interactive web application that allows users to manage their phone contacts. The main goal of this application is to enable users to add, edit, delete, and browse their contacts in a simple and intuitive way.
 tags:
-    - Design
-    - Branding
+    - HTML5
+    - CSS3
+    - JavaScript
+    - react
+    - redux
+    - redux-persist
+    - toolkit
+    - REST API
+    - JWT
+    - auth
+    - axios
+    - ChakraUI
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur posuere commodo venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam non ligula vel metus efficitur hendrerit. In hac habitasse platea dictumst. Praesent et mauris ut mi dapibus semper. Curabitur tortor justo, efficitur sit amet pretium cursus, porta eget odio. Cras ac venenatis dolor. Donec laoreet posuere malesuada. Curabitur nec mi tempor, placerat leo sit amet, tincidunt est. Quisque pellentesque venenatis magna, eget tristique nibh pulvinar in. Vestibulum vitae volutpat arcu. Aenean ut malesuada odio, sit amet pellentesque odio. Suspendisse nunc elit, blandit nec hendrerit non, aliquet at magna. Donec id leo ut nulla sagittis sodales.
+The user interface is built using the React framework, which provides efficient and responsive handling of components. To manage the application state, the Redux library is used, allowing for global state management and facilitating data synchronization between different components.
 
-Integer vitae nibh elit. Suspendisse eget urna eu neque bibendum pharetra. Sed interdum lectus sem, in pulvinar magna dignissim vel. Quisque maximus at urna nec laoreet. Suspendisse potenti. Vestibulum rhoncus sem ut mi pellentesque, in vestibulum erat blandit. Aliquam sodales dui ac maximus consectetur. Duis quis est vehicula, imperdiet nisl nec, fermentum erat. Duis tortor diam, pharetra eu euismod in, vehicula non eros. Curabitur facilisis dui at erat ultrices gravida. In at nunc ultricies, pulvinar mi vel, sagittis mauris. Praesent pharetra posuere purus ac imperdiet. Nulla facilisi.
+Additionally, the Redux Persist library is used to store the application state between sessions. This ensures that contact data is saved locally and restored upon restarting the application.
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
+To simplify and expedite the application development process, the Redux Toolkit is used. It provides ready-made solutions such as action creators, reducers, and selectors, streamlining the process of building Redux-based applications.
 
-Mauris sed eros in ex maximus volutpat. Suspendisse potenti. Donec lacinia justo consectetur sagittis tempor. Proin ullamcorper nisi vitae auctor rhoncus. Sed tristique aliquam augue. Pellentesque vitae fringilla ligula. Nulla arcu elit, efficitur eu nunc malesuada, eleifend tincidunt orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer mattis orci in bibendum ultricies. Quisque a dui erat. Phasellus et vulputate ipsum. Proin metus ex, lobortis nec ornare eget, bibendum ut sapien. Aliquam in dolor lobortis, aliquam tellus a, congue augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Communication with the server is done using a REST API, which enables data exchange between the application and the server. The Axios library is used to handle HTTP requests, providing a simple and convenient interface for making requests.
 
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
+For securing access to the application and authenticating users, a JWT (JSON Web Token) authentication mechanism is implemented. Users are required to log in before accessing their contacts. The necessary features are provided by React and authentication and authorization modules from the Redux library.
+
+To ensure an appealing visual design and user interaction in the interface, the Chakra UI library is used. It provides ready-made components, styles, and layouts that can be easily customized to fit the project's needs. As a result, the "Phonebook" application has a clear and aesthetically pleasing appearance.
+
+In summary, the "Phonebook" application is a comprehensive solution for managing phone contacts, built using JavaScript and the React framework. It utilizes various tools such as Redux, Redux Persist, Redux Toolkit, REST API, auth, Axios, and Chakra UI to provide ease of use, efficiency, and an attractive interface.
