@@ -3,7 +3,7 @@ title: Event Booster
 publishDate: 2023-26-06 19:00:00
 demo: https://gash94.github.io/eventbooster-goit-group-5
 repo: https://github.com/gash94/eventbooster-goit-group-5
-img: /assets/eventbooster.png
+img: /assets/eventbooster.jpg
 img_alt: The page in a dark shade shows the event search engine
 description: |
     "EventBooster" is a JavaScript-based web application that allows users to search for events in different countries. The main objective of this application is to help users find cultural, sports, entertainment, and other events that take place worldwide.

@@ -3,7 +3,7 @@ title: WebStudio
 publishDate: 2023-06-19 18:00:00
 demo: https://gash94.github.io/WebStudio
 repo: https://github.com/gash94/WebStudio
-img: /assets/webstudio.png
+img: /assets/webstudio.jpg
 img_alt: Web Studio preview in bright colors
 description: |
     "WebStudio" is the first project of a website developed based on a mockup designed in Figma. It was coded using HTML5, CSS3, SCSS, and responsive layout techniques. The project also incorporates ready-made JavaScript scripts, such as a hamburger menu for mobile view. It serves as an example of a fictitious company's website.

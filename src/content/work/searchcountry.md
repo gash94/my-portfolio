@@ -3,7 +3,7 @@ title: Search engine country
 publishDate: 2019-10-02 00:00:00
 demo: https://gash94.github.io/country-search-engine
 repo: https://github.com/gash94/country-search-engine
-img: /assets/searchcountry.png
+img: /assets/searchcountry.jpg
 img_alt: page in blue colors showing the search engine country
 description: |
     "Search Engine Country" is an application that allows users to search for countries and provides various information about each country, including its capital city, region, population size, official language, illustrations of the flag, and a link to a Wikipedia page that describes the country in detail.

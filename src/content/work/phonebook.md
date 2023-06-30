@@ -3,7 +3,7 @@ title: Phonebook
 publishDate: 2023-26-06 00:00:00
 demo: https://gash94.github.io/goit-react-hw-08-phonebook
 repo: https://github.com/gash94/goit-react-hw-08-phonebook
-img: /assets/phonebook.png
+img: /assets/phonebook.jpg
 img_alt: Page in dark colors with contact cards.
 description: |
     The "Phonebook" application is an interactive web application that allows users to manage their phone contacts. The main goal of this application is to enable users to add, edit, delete, and browse their contacts in a simple and intuitive way.

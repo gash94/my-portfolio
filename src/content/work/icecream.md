@@ -3,7 +3,7 @@ title: Event Booster
 publishDate: 2022-26-06 13:00:00
 demo: https://gash94.github.io/icecram-goit-group-2
 repo: https://github.com/gash94/icecram-goit-group-2
-img: /assets/icecram.png
+img: /assets/icecram.jpg
 img_alt: a color page depicting a fictional ice cream parlor
 description: |
     "Ice Cream" is a fictional ice cream parlor website that has been coded based on a Figma mockup. The website was developed by a group of developers as a collaborative project, with Paweł Gasz serving as the team leader.

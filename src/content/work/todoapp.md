@@ -3,7 +3,7 @@ title: ToDoApp
 publishDate: 2023-06-20 00:00:00
 demo: https://gash94.github.io/todo-list-app
 repo: https://github.com/gash94/todo-list-app
-img: /assets/todoapp.png
+img: /assets/todoapp.jpg
 img_alt: Bright side with the task saver app
 description: |
     "The ToDoApp" is a simple web application developed using HTML5, CSS3, and JavaScript. The main purpose of this application is to allow users to create and manage a list of tasks to be completed.
