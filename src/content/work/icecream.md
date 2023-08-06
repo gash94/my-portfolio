@@ -1,6 +1,6 @@
 ---
-title: Event Booster
-publishDate: 2022-06-26 13:00:00
+title: Ice Cream
+publishDate: 2023-06-26 13:00:00
 demo: https://gash94.github.io/icecram-goit-group-2
 repo: https://github.com/gash94/icecram-goit-group-2
 img: /assets/icecram.jpg
