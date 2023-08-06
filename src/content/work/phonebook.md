@@ -1,6 +1,6 @@
 ---
 title: Phonebook
-publishDate: 2023-26-06 00:00:00
+publishDate: 2023-06-26 00:00:00
 demo: https://gash94.github.io/goit-react-hw-08-phonebook
 repo: https://github.com/gash94/goit-react-hw-08-phonebook
 img: /assets/phonebook.jpg
