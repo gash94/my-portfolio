@@ -1,6 +1,6 @@
 ---
 title: WalletAPP
-publishDate: 2023-06-08 13:00:00
+publishDate: 2023-08-06 13:00:00
 demo: https://wallet-app-gash.netlify.app
 repo: https://github.com/gash94/goit-wallet-app-03-frontend
 img: /assets/walletapp.jpg

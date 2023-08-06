@@ -1,6 +1,6 @@
 ---
 title: Event Booster
-publishDate: 2023-26-06 19:00:00
+publishDate: 2023-06-26 19:00:00
 demo: https://gash94.github.io/eventbooster-goit-group-5
 repo: https://github.com/gash94/eventbooster-goit-group-5
 img: /assets/eventbooster.jpg
