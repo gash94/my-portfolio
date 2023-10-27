@@ -63,4 +63,4 @@ JWT (JSON Web Token) is used for user authentication and data security, ensuring
 
 > [Marta Dąbrowska](https://github.com/Muffcata) (Developer)
 
-> [Wiktro Gola](https://github.com/Wiktoritho) (Developer)
+> [Wiktor Gola](https://github.com/Wiktoritho) (Developer)
